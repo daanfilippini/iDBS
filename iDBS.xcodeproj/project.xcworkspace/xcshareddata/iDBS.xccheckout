@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>706C7FDF-3077-42D8-B6BE-0270601531B6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iDBS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C6A8BC2838A9935535AB6C70825499CD98874C43</key>
+		<string>https://github.com/daanfilippini/iDBS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iDBS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C6A8BC2838A9935535AB6C70825499CD98874C43</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/daanfilippini/iDBS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C6A8BC2838A9935535AB6C70825499CD98874C43</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C6A8BC2838A9935535AB6C70825499CD98874C43</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iDBS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
