@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Mammografie</string>
+		<key>EMI</key>
+		<string>Mogelijk EMI</string>
+		<key>Extra informatie</key>
+		<string>HIer kan aanvullende informatie over Mammografie komen.</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Microgolfcommunicatie zendmasten</string>
+		<key>EMI</key>
+		<string>Waarschijnlijk EMI</string>
+		<key>Extra informatie</key>
+		<string>HIer kan aanvullende informatie over Microgolfcommunicatie zendmasten komen.</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Pacemakers</string>
+		<key>EMI</key>
+		<string>Mogelijk EMI</string>
+		<key>Extra informatie</key>
+		<string>HIer kan aanvullende informatie over Pacemakers komen.</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Hoogspanningskabels</string>
+		<key>EMI</key>
+		<string>Waarschijnlijk EMI</string>
+		<key>Extra informatie</key>
+		<string>HIer kan aanvullende informatie over Hoogspanningskabels komen.</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Elektrische gereedschappen</string>
+		<key>EMI</key>
+		<string>Geen EMI</string>
+		<key>Extra informatie</key>
+		<string>HIer kan aanvullende informatie over Elektrische gereedschappen komen.</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Psychotherapeutische procedures</string>
+		<key>EMI</key>
+		<string>Waarschijnlijk EMI</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Perfusiesystemen</string>
+		<key>EMI</key>
+		<string>Waarschijnlijk EMI</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Bestraling</string>
+		<key>EMI</key>
+		<string>Waarschijnlijk EMI</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Radio&apos;s, AM en FM</string>
+		<key>EMI</key>
+		<string>Geen EMI</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Koelkastdeuren</string>
+		<key>EMI</key>
+		<string>Geen EMI</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Weerstandlasapparaten</string>
+		<key>EMI</key>
+		<string>Waarschijnlijk EMI</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Beveiligingspoorten</string>
+		<key>EMI</key>
+		<string>Mogelijk EMI</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Naaimachines</string>
+		<key>EMI</key>
+		<string>Geen EMI</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Keramische fornuizen</string>
+		<key>EMI</key>
+		<string>Geen EMI</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Luidsprekers</string>
+		<key>EMI</key>
+		<string>Geen EMI</string>
+	</dict>
+	<dict>
+		<key>Apparaat/Procedure</key>
+		<string>Tochtdeuren</string>
+		<key>EMI</key>
+		<string>Geen EMI</string>
+	</dict>
+</array>
+</plist>

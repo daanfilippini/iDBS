@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  InfoViewController.h
 //  iDBS
 //
 //  Created by BaviDaan on 13-02-15.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface InfoViewController : UIViewController <UITableViewDataSource, UITableViewDataSource> {
 
+}
 
 @end
 

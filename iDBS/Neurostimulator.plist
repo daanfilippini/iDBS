@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Batterijpercentage</key>
+	<string></string>
+	<key>Programma</key>
+	<string></string>
+	<key>Linker Variabele</key>
+	<string></string>
+	<key>Rechter Variabele</key>
+	<string></string>
+	<key>Z/O</key>
+	<string></string>
+	<key>Arts</key>
+	<string></string>
+	<key>E-mail</key>
+	<string></string>
+</dict>
+</plist>
