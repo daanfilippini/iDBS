@@ -38,7 +38,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="jIM-bN-qjd" detailTextLabel="T0A-0m-GqC" style="IBUITableViewCellStyleValue1" id="Yhi-Bw-CIP">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="jIM-bN-qjd" detailTextLabel="T0A-0m-GqC" style="IBUITableViewCellStyleValue1" id="Yhi-Bw-CIP">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yhi-Bw-CIP" id="htL-2l-tEp">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -406,7 +406,7 @@
         <!--Instellingen-->
         <scene sceneID="hcW-da-1FA">
             <objects>
-                <viewController id="gDx-To-g0G" sceneMemberID="viewController">
+                <viewController id="gDx-To-g0G" customClass="InstellingenViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qIn-1c-fgV"/>
                         <viewControllerLayoutGuide type="bottom" id="si5-0T-oZY"/>
@@ -414,7 +414,31 @@
                     <view key="view" contentMode="scaleToFill" id="IeE-Ep-LJM">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="9kA-hN-Usf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="HAT-o0-cVI">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HAT-o0-cVI" id="7FI-KE-veV">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="gDx-To-g0G" id="qgG-Dc-3Pc"/>
+                                    <outlet property="delegate" destination="gDx-To-g0G" id="AfZ-x3-qSn"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9kA-hN-Usf" firstAttribute="leading" secondItem="IeE-Ep-LJM" secondAttribute="leadingMargin" constant="-16" id="HOw-bM-xOA"/>
+                            <constraint firstItem="9kA-hN-Usf" firstAttribute="bottom" secondItem="IeE-Ep-LJM" secondAttribute="bottomMargin" id="Mps-Bl-ose"/>
+                            <constraint firstItem="9kA-hN-Usf" firstAttribute="top" secondItem="IeE-Ep-LJM" secondAttribute="topMargin" id="Xik-dX-DM8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9kA-hN-Usf" secondAttribute="trailing" constant="-16" id="rIk-jW-z0A"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Instelingen" image="instellingen.png" id="WVN-El-QWi"/>
                     <navigationItem key="navigationItem" title="Instellingen" id="BfB-o0-ziB"/>

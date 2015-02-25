@@ -2,8 +2,8 @@
 //  DelenViewController.m
 //  iDBS
 //
-//  Created by BaviDaan on 18-02-15.
-//  Copyright (c) 2015 BV-D Software. All rights reserved.
+//  Created by Daan Filippini on 9-02-15.
+//  Copyright (c) 2015 Daan Filippini. All rights reserved.
 //
 
 #import "DelenViewController.h"
@@ -187,14 +187,15 @@
     
     [super viewDidLoad];
     
+    /*
     NSString *googleString = @"http://www.google.com";
     NSURL *googleURL = [NSURL URLWithString:googleString];
     
     NSError* error = nil;
     NSString *data = [NSString stringWithContentsOfURL:googleURL encoding:NSASCIIStringEncoding error:&error];
     
-    //NSLog(data);
-    
+    NSLog(data);
+    */
 }
 
 - (void)viewDidAppear:(BOOL)animated

@@ -2,8 +2,8 @@
 //  InfoViewController.m
 //  iDBS
 //
-//  Created by BaviDaan on 13-02-15.
-//  Copyright (c) 2015 BV-D Software. All rights reserved.
+//  Created by Daan Filippini on 9-02-15.
+//  Copyright (c) 2015 Daan Filippini. All rights reserved.
 //
 
 #import "InfoViewController.h"
@@ -62,8 +62,8 @@
         
         if (indexPath.row == 1){
             
-            cell.textLabel.text = @"Amperage";
-            cell.detailTextLabel.text = @"2,19 A";
+            cell.textLabel.text = @"Resterende duur";
+            cell.detailTextLabel.text = @"1,5 jaar";
         }
     }
     
@@ -74,6 +74,7 @@
             cell.textLabel.text = @"Klik hier voor de lijst";
             cell.detailTextLabel.text = @"";
             cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+            cell.selectionStyle = UITableViewCellSelectionStyleGray;
         }
     }
     
@@ -193,13 +194,15 @@
     
     [super viewDidLoad];
     
-    NSString *googleString = @"http://www.google.com";
-    NSURL *googleURL = [NSURL URLWithString:googleString];
-    
-    NSError* error = nil;
-    NSString *data = [NSString stringWithContentsOfURL:googleURL encoding:NSASCIIStringEncoding error:&error];
-    
-    //NSLog(data);
+    /*
+     NSString *googleString = @"http://www.google.com";
+     NSURL *googleURL = [NSURL URLWithString:googleString];
+     
+     NSError* error = nil;
+     NSString *data = [NSString stringWithContentsOfURL:googleURL encoding:NSASCIIStringEncoding error:&error];
+     
+     NSLog(data);
+     */
     
 }
 

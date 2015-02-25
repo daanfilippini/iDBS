@@ -25,6 +25,7 @@
 		092A5B2F1A8E58FF00068A17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092A5B2E1A8E58FF00068A17 /* Images.xcassets */; };
 		092A5B321A8E58FF00068A17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092A5B301A8E58FF00068A17 /* LaunchScreen.xib */; };
 		092A5B3E1A8E590000068A17 /* iDBSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092A5B3D1A8E590000068A17 /* iDBSTests.m */; };
+		09568FC21A9BB70E00197F47 /* InstellingenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09568FC11A9BB70E00197F47 /* InstellingenViewController.m */; };
 		09C9DE0E1A9771DB002C33E7 /* GroepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C9DE0D1A9771DB002C33E7 /* GroepViewController.m */; };
 		09C9DE111A97935C002C33E7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C9DE101A97935C002C33E7 /* MessageUI.framework */; };
 		09C9DE131A979C17002C33E7 /* Neurostimulator.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09C9DE121A979C17002C33E7 /* Neurostimulator.plist */; };
@@ -69,6 +70,8 @@
 		092A5B371A8E590000068A17 /* iDBSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDBSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		092A5B3C1A8E590000068A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		092A5B3D1A8E590000068A17 /* iDBSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDBSTests.m; sourceTree = "<group>"; };
+		09568FC01A9BB70E00197F47 /* InstellingenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstellingenViewController.h; sourceTree = "<group>"; };
+		09568FC11A9BB70E00197F47 /* InstellingenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstellingenViewController.m; sourceTree = "<group>"; };
 		09C9DE0C1A9771DB002C33E7 /* GroepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroepViewController.h; sourceTree = "<group>"; };
 		09C9DE0D1A9771DB002C33E7 /* GroepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroepViewController.m; sourceTree = "<group>"; };
 		09C9DE101A97935C002C33E7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -127,6 +130,8 @@
 				09C9DE0F1A9771E4002C33E7 /* ProgrammaViews */,
 				09F99F731A94DD7400D1DBD0 /* DelenViewController.h */,
 				09F99F741A94DD7400D1DBD0 /* DelenViewController.m */,
+				09568FC01A9BB70E00197F47 /* InstellingenViewController.h */,
+				09568FC11A9BB70E00197F47 /* InstellingenViewController.m */,
 				092A5B2B1A8E58FF00068A17 /* Main.storyboard */,
 				092A5B2E1A8E58FF00068A17 /* Images.xcassets */,
 				092A5B301A8E58FF00068A17 /* LaunchScreen.xib */,
@@ -310,6 +315,7 @@
 			files = (
 				092A5B2A1A8E58FF00068A17 /* ProgrammaViewController.m in Sources */,
 				092A5B241A8E58FF00068A17 /* AppDelegate.m in Sources */,
+				09568FC21A9BB70E00197F47 /* InstellingenViewController.m in Sources */,
 				092A5B271A8E58FF00068A17 /* InfoViewController.m in Sources */,
 				09F99F751A94DD7400D1DBD0 /* DelenViewController.m in Sources */,
 				09C9DE0E1A9771DB002C33E7 /* GroepViewController.m in Sources */,
